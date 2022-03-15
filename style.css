@@ -1,0 +1,48 @@
+.heading{
+    position: fixed; /* or absolute */
+    top: 20px;
+    left: 40%;
+}
+.forms{
+    position: fixed; /* or absolute */
+    top: 150px;
+    left: 40%;
+    line-height: 200%;
+
+}
+/* For Mobile */
+@media screen and (max-width: 540px) {
+    .heading{
+        position: fixed; /* or absolute */
+        top: 20px;
+        left: 30%;
+    }
+    .forms{
+        position: fixed; /* or absolute */
+        top: 150px;
+        left: 30%;
+        line-height: 200%;
+    
+    }
+}
+#button1{
+    position: relative;
+    left:55px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+#ttitle{
+    position: relative;
+    left:5px;
+    font-family:fantasy;
+    letter-spacing: 5px;
+    text-shadow: -1px -1px 0 rgb(255, 238, 0), 1px -1px 0 rgb(255, 187, 0), -1px 1px 0 rgb(255, 60, 0), 1px 1px 0 rgb(255, 136, 0);
+}
+body{
+    background-color: #c73958;
+}
+.textboxs{
+    border: 2px solid yellow;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 190);
+}
